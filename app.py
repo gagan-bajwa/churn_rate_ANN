@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import pickle
+import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 with open('preprocessor.pkl','rb') as f:
